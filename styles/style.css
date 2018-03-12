@@ -1,0 +1,23 @@
+/* Fun comment for effect! */
+
+html {
+	font-size: 10px;
+	font-family: Roboto;
+	background-color: #EDFFEA;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+p, li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+body {
+	width: 600px;
+	margin: 0 auto; /* auto distributes space evenly b/w L/R sides */
+}
