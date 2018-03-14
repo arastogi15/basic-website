@@ -7,8 +7,17 @@ html {
 }
 
 h1 {
+	margin: 0;
+	padding: 20px 0
+	color: #000000;
+	text-shadow: 0 1px 1px gray;  /* h-offset, v-offset, blur-radius, base color */
 	font-size: 60px;
 	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
 }
 
 p, li {
@@ -17,7 +26,13 @@ p, li {
 	letter-spacing: 1px;
 }
 
+li:hover {
+		color: red;
+}
 body {
 	width: 600px;
 	margin: 0 auto; /* auto distributes space evenly b/w L/R sides */
+	background-color: #C4FCC8;
+	padding: 0 20px 20px 20px; /* top, right, bottom, left */
+	border: 5px solid black;
 }
